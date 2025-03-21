@@ -1,11 +1,5 @@
 # 📝 Todo App
 
-A beautiful and powerful task management application.
-
----
-
-## 🚀 Welcome to Todo App
-
 **Todo App** is a modern task management application built with **Next.js** and **shadcn/ui**. It provides a clean and intuitive interface to help you organize your tasks and boost your productivity.
 
 ---
@@ -27,13 +21,38 @@ A beautiful and powerful task management application.
 
 This application is built with modern web technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Prisma ORM](https://www.prisma.io/)
+- [PostgreSQL](https://www.postgresql.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📖 How to Use
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Once you're in the app, you can:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ➕ **Add a task**: Type your task in the input field and press Enter or click the plus button.
+- ✅ **Complete a task**: Click the checkbox next to a task to mark it as complete.
+- 🚩 **Set priority**: Click the priority button to select `low`, `medium`, or `high`.
+- 🔍 **Filter tasks**: Use filter buttons to view all, active, or completed tasks.
+- ↕️ **Sort tasks**: Click the sort button to sort by date, priority, or name.
+- 🔎 **Search tasks**: Use the search bar to find tasks by title.
+- 📝 **View details**: Click the info icon for full task details.
+- 🗑 **Delete a task**: Click the trash icon to remove a task (with confirmation).
+
+---
+
+## 📦 Coming Soon
+
+- Workspace management
+- User authentication
+- Team collaboration
+- GitOps deployment setup guide
+
+---
+
+> Built with ❤️ by [@mrfour4](https://github.com/mrfour4)
