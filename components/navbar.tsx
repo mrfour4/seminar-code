@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { CheckSquare, Info } from "lucide-react";
+import { CheckSquare, FlaskConical, Info } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -28,7 +28,7 @@ export function Navbar() {
                 </div>
 
                 <div className="flex flex-1 items-center justify-end space-x-2">
-                    <nav className="flex items-center space-x-1">
+                    <nav className="flex items-center gap-x-2">
                         <Link href="/" passHref>
                             <Button
                                 variant={pathname === "/" ? "default" : "ghost"}
@@ -49,6 +49,18 @@ export function Navbar() {
                             >
                                 <Info className="mr-2 h-4 w-4" />
                                 About
+                            </Button>
+                        </Link>
+                        <Link href="/test" passHref>
+                            <Button
+                                variant={
+                                    pathname === "/test" ? "default" : "ghost"
+                                }
+                                size="sm"
+                                className="text-sm"
+                            >
+                                <FlaskConical className="mr-2 h-4 w-4" />
+                                Test
                             </Button>
                         </Link>
                     </nav>
