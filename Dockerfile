@@ -2,28 +2,31 @@
 FROM node:22-alpine AS builder
 WORKDIR /app
 
-# Copy file lock + install bun + deps
+# Copy lock file + install bun + deps
 COPY package.json bun.lock ./
 RUN npm install -g bun && bun install
 
 # Copy source code
 COPY . .
 
-# Build app
+# 👉 Generate Prisma client
+RUN bunx prisma generate
+
+# Build Next.js app
 RUN bun run build
 
 # Stage 2: Run server
 FROM node:22-alpine
 WORKDIR /app
 
-# Cài lại Bun để chạy
+# Cài lại Bun
 RUN npm install -g bun
 
-# Copy app đã build
+# Copy toàn bộ app đã build
 COPY --from=builder /app ./
 
-# Cổng mặc định
+# Expose port
 EXPOSE 3000
 
-# Chạy Next.js server (SSR)
+# Start server
 CMD ["bun", "start"]
