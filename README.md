@@ -1,11 +1,5 @@
 # 📝 Todo App
 
-A beautiful and powerful task management application.
-
----
-
-## 🚀 Welcome to Todo App
-
 **Todo App** is a modern task management application built with **Next.js** and **shadcn/ui**. It provides a clean and intuitive interface to help you organize your tasks and boost your productivity.
 
 ---
@@ -28,13 +22,12 @@ A beautiful and powerful task management application.
 This application is built with modern web technologies:
 
 - [Next.js](https://nextjs.org/)
-- [React](https://reactjs.org/)
+- [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.dev/)
+- [shadcn/ui](https://ui.shadcn.com/)
 - [Prisma ORM](https://www.prisma.io/)
 - [PostgreSQL](https://www.postgresql.org/)
-- [Vercel](https://vercel.com/) (for deployment)
 
 ---
 
