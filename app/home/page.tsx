@@ -1,5 +1,7 @@
 import { db } from "@/lib/prisma";
 
+export const dynamic = "force-dynamic";
+
 export default async function HomePage() {
     const data = await db.task.findMany();
     return (
