@@ -10,11 +10,7 @@ export default function TryNowButton() {
     const router = useRouter();
 
     const handleClick = () => {
-        // Navigate to the URL from environment variable
-        const appUrl = process.env.NEXT_PUBLIC_APP_URL;
-        if (appUrl) {
-            router.push(appUrl);
-        }
+        router.push("/api/redirect");
     };
 
     return (
