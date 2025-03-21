@@ -58,7 +58,6 @@ This application is built with modern web technologies:
 - Workspace management
 - User authentication
 - Team collaboration
-- GitOps deployment setup guide
 
 ---
 
