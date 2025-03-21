@@ -3,11 +3,11 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 async function main() {
-    await prisma.task.createMany({
+    await prisma.todo.createMany({
         data: [
-            { title: "Build UI for dashboard" },
-            { title: "Fix bug in login page" },
-            { title: "Write unit tests for task module" },
+            { text: "Build UI for dashboard" },
+            { text: "Fix bug in login page" },
+            { text: "Write unit tests for task module" },
         ],
     });
 
