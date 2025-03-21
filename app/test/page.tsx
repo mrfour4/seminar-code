@@ -4,7 +4,7 @@ export default async function TestPage() {
     return (
         <div>
             Test Page
-            <Button>No import Button</Button>
+            <Button>Click</Button>
         </div>
     );
 }
