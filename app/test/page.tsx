@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export default async function TestPage() {
     return (
         <div>
-            Test Page ...
+            Test Healthy state
             <Button>Click me!</Button>
         </div>
     );
