@@ -6,8 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-// Temporarily commented out to simulate a build error demo
-// import { ModeToggle } from "./mode-toggle";
+import { ModeToggle } from "./mode-toggle";
 
 export function Navbar() {
     const pathname = usePathname();
