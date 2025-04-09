@@ -296,7 +296,7 @@ export function TodoApp() {
                         <Loader2 className="text-primary h-8 w-8 animate-spin" />
                     </div>
                 ) : sortedTodos.length > 0 ? (
-                    <ScrollArea className="h-[320px] rounded-md">
+                    <ScrollArea className="h-[250px] rounded-md">
                         <div className="space-y-2 pr-4">
                             {sortedTodos.map((todo) => (
                                 <TodoItem
