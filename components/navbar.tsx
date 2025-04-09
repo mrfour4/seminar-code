@@ -5,7 +5,9 @@ import { CheckSquare, FlaskConical, Info } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ModeToggle } from "./mode-toggle";
+
+// Temporarily commented out to simulate a build error demo
+// import { ModeToggle } from "./mode-toggle";
 
 export function Navbar() {
     const pathname = usePathname();
