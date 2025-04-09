@@ -249,7 +249,8 @@ export function TodoApp() {
         <Card className="border-none shadow-lg">
             <CardHeader className="pb-3">
                 <CardTitle className="text-center text-2xl font-bold">
-                    My Tasks
+                    {/* My Tasks -> Todo List */}
+                    Todo List
                 </CardTitle>
                 <CardDescription className="text-center">
                     Organize your day, boost your productivity
